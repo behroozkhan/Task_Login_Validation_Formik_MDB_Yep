@@ -35,7 +35,7 @@ const LoginValidation = () => {
                         text: 'Login successful',
                         icon: 'success'
                     });
-                    action.resetForm()
+                    action.resetForm();
                 } else {
                     if (response.status === 404) {
                         Swal.fire({
