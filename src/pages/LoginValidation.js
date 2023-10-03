@@ -1,6 +1,6 @@
 //-----------------         Import necessary dependencies and styles    -----------------------------------//
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import { MDBContainer, MDBCol, MDBRow, MDBBtn, MDBInput, } from 'mdb-react-ui-kit';
+import { MDBContainer, MDBCol, MDBRow, MDBBtn, MDBInput} from 'mdb-react-ui-kit';
 import IMAGE from '../images/assismentLogin.png'
 import Swal from 'sweetalert2'
 import axios from 'axios'
