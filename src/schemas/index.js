@@ -8,7 +8,6 @@ const SignupSchema = Yup.object().shape({
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/,
       'Password must include at least one uppercase letter, one lowercase letter, and one number'
     )
-    .max(8, 'Password must be exactly 8 characters long')
     .required('Password is required'),
   });
- export default SignupSchema
+ export default SignupSchema;
